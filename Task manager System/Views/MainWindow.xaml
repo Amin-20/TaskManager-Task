@@ -85,14 +85,14 @@
 
         </Canvas>
 
-        <TextBox Grid.Row="1" BorderThickness="1" BorderBrush="Black" Margin="3,28,108,28" Text="{Binding BlockProgramName}" FontSize="40"/>
+        <TextBox Grid.Row="1" BorderThickness="1" BorderBrush="Black" Margin="3,28,108,28" Text="{Binding BlockProgramName}" FontSize="30"/>
         <Button Style="{DynamicResource ButtonStyle1}" Command="{Binding AddBlockBoxButton}"  Grid.Row="1" Margin="197,28,6,28" FontSize="20" Content="Add&#xD;&#xA;Block List" />
 
 
 
-        <TextBox Grid.Row="1" BorderBrush="Black"  BorderThickness="1" Margin="10,26,301,28" Text="{Binding CreateOrEndProgramName}" FontSize="40" Grid.Column="1"/>
+        <TextBox Grid.Row="1" BorderBrush="Black"  BorderThickness="1" Margin="10,26,301,28" Text="{Binding CreateOrEndProgramName}" FontSize="30" Grid.Column="1"/>
         <Button Style="{DynamicResource ButtonStyle1}" Command="{Binding Create}" Grid.Row="1" Grid.Column="1" Margin="402,26,135,28" FontSize="30" Content="Create"/>
-        <Button Style="{DynamicResource ButtonStyle1}" Command="{Binding End}" Grid.Row="1" Grid.Column="1" Margin="568,26,4,28" FontSize="30" Content="End"/>
+        <Button Style="{DynamicResource ButtonStyle1}" Command="{Binding End}" Grid.Row="1" Grid.Column="1" Margin="566,26,6,28" FontSize="30" Content="End"/>
 
         <ListBox ItemsSource="{Binding BlockedPrograms}" FontSize="18">
             <ListBox.ItemTemplate>
